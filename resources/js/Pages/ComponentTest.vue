@@ -6,7 +6,6 @@ import Label from '@/Components/InputLabel.vue'
 
 <template>
 <GuestLayout>
-    //タイトルと記述はあるがvalueが指定されているため、そちらが優先される。
     <Label value="件名">タイトル</Label>
 </GuestLayout>
 </template>
