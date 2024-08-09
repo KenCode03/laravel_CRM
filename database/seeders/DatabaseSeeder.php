@@ -19,7 +19,8 @@ class DatabaseSeeder extends Seeder
             ItemSeeder::class,
         ]);
 
-        // User::factory(10)->create();
+        //factoryを使用したダミーデータを1000件(1000)作って登録します(->create)。
+        \App\Models\Customer::factory(1000)->create();
 
         //User::factory()->create([
             //'name' => 'Test User',
